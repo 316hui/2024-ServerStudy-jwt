@@ -1,0 +1,14 @@
+package com.example.demo.mapper;
+
+import org.apache.ibatis.annotations.Mapper;
+
+import com.example.demo.domain.RefreshToken;
+
+@Mapper
+public interface RefreshTokenMapper {
+	public RefreshToken findByToken(String token);
+	
+	public void createRefreshToken(RefreshToken refreshToken);
+	
+	public void deleteRefreshToken(RefreshToken refreshToken);
+}

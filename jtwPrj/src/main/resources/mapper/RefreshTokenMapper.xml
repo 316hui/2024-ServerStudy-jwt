@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.example.demo.mapper.RefreshTokenMapper">
+	
+	<resultMap type="com.example.demo.domain.RefreshToken" id="RefreshTokenMap">
+	
+		<id column="rt_id" property="id" />
+		<result column="rt_refresh_token" property="token" />
+		<result column="rt_expiry_date" property="expiryDate" />
+		<association property="user" javaType="User">
+			<id column="u_id" property="username" />
+			<result column="u_name" property="uName" />
+		</association>
+	</resultMap>
+
+
+</mapper>
