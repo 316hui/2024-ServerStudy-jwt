@@ -1,0 +1,12 @@
+arguments=
+auto.sync=false
+eclipse.preferences.version=1
+experimental.module.support=false
+gradle.build.scans=false
+gradle.distribution=GRADLE_DISTRIBUTION(VERSION(8.9))
+gradle.offline.mode=false
+gradle.user.home=C\:\\gradle-8.9
+java.home=C\:\\Program Files\\ojdkbuild\\jdk-22.0.1
+jvm.arguments=
+show.console.view=true
+show.executions.view=true
