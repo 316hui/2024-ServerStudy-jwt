@@ -31,7 +31,7 @@ public class JwtAuthFilter extends OncePerRequestFilter{
 	protected void doFilterInternal(HttpServletRequest request, HttpServletResponse response, FilterChain filterChain)
 			throws ServletException, IOException {
 		
-		String authHeader = request.getHeader("Authorization");
+		String authHeader = request.getHeader("Authorization"); //권한이 되는지 확인
 		String token = null;
 		String username = null;
 		
@@ -40,7 +40,7 @@ public class JwtAuthFilter extends OncePerRequestFilter{
 			username = jwtService.extractUsername(token);
 		}
 		
-		if(username != null && SecurityContextHolder.getContext().getAuthentication() == null) {
+		if(username != null && SecurityContextHolder.getContext().getAuthentication() == null) { //SecurityContextHolder : Authentication 객체에 접근할 수 있게되며, 사용자의 권한- 인증상태- 사용자이름 등의 정보얻기 가능.
 			UserDetails userDetails = userService.loadUserByUsername(username);
 			if (jwtService.validateToken(token, userDetails)) {
 				
@@ -51,6 +51,9 @@ public class JwtAuthFilter extends OncePerRequestFilter{
 		}
 		
 		filterChain.doFilter(request, response);
+		
+		
+		//spring security architector, security context holder :  https://docs.spring.io/spring-security/reference/index.html
 	}
 	
 }

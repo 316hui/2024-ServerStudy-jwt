@@ -1,0 +1,525 @@
+10:34:45.560 INFO  --- [restartedMain] com.example.demo.JtwPrjApplication : Starting JtwPrjApplication using Java 22.0.1 with PID 12468 (C:\Users\L10A\Documents\work8\jtwPrj\bin\main started by L10A in C:\Users\L10A\Documents\work8\jtwPrj) 
+10:34:45.561 DEBUG --- [restartedMain] com.example.demo.JtwPrjApplication : Running with Spring Boot v3.3.0, Spring v6.1.8 
+10:34:45.561 INFO  --- [restartedMain] com.example.demo.JtwPrjApplication : No active profile set, falling back to 1 default profile: "default" 
+10:34:46.662 DEBUG --- [restartedMain] c.example.demo.config.JwtAuthFilter : Filter 'jwtAuthFilter' configured for use 
+10:34:47.170 INFO  --- [restartedMain] com.example.demo.JtwPrjApplication : Started JtwPrjApplication in 1.964 seconds (process running for 2.431) 
+10:36:39.233 INFO  --- [restartedMain] com.example.demo.JtwPrjApplication : Starting JtwPrjApplication using Java 22.0.1 with PID 10544 (C:\Users\L10A\Documents\work8\jtwPrj\bin\main started by L10A in C:\Users\L10A\Documents\work8\jtwPrj) 
+10:36:39.234 DEBUG --- [restartedMain] com.example.demo.JtwPrjApplication : Running with Spring Boot v3.3.0, Spring v6.1.8 
+10:36:39.234 INFO  --- [restartedMain] com.example.demo.JtwPrjApplication : No active profile set, falling back to 1 default profile: "default" 
+10:36:40.578 DEBUG --- [restartedMain] c.example.demo.config.JwtAuthFilter : Filter 'jwtAuthFilter' configured for use 
+10:36:41.152 INFO  --- [restartedMain] com.example.demo.JtwPrjApplication : Started JtwPrjApplication in 2.325 seconds (process running for 3.141) 
+10:42:03.572 INFO  --- [restartedMain] com.example.demo.JtwPrjApplication : Starting JtwPrjApplication using Java 22.0.1 with PID 10544 (C:\Users\L10A\Documents\work8\jtwPrj\bin\main started by L10A in C:\Users\L10A\Documents\work8\jtwPrj) 
+10:42:03.572 DEBUG --- [restartedMain] com.example.demo.JtwPrjApplication : Running with Spring Boot v3.3.0, Spring v6.1.8 
+10:42:03.572 INFO  --- [restartedMain] com.example.demo.JtwPrjApplication : No active profile set, falling back to 1 default profile: "default" 
+10:42:04.466 DEBUG --- [restartedMain] c.example.demo.config.JwtAuthFilter : Filter 'jwtAuthFilter' configured for use 
+10:42:04.716 INFO  --- [restartedMain] com.example.demo.JtwPrjApplication : Started JtwPrjApplication in 1.173 seconds (process running for 326.705) 
+10:45:00.765 INFO  --- [restartedMain] com.example.demo.JtwPrjApplication : Starting JtwPrjApplication using Java 22.0.1 with PID 10544 (C:\Users\L10A\Documents\work8\jtwPrj\bin\main started by L10A in C:\Users\L10A\Documents\work8\jtwPrj) 
+10:45:00.765 DEBUG --- [restartedMain] com.example.demo.JtwPrjApplication : Running with Spring Boot v3.3.0, Spring v6.1.8 
+10:45:00.765 INFO  --- [restartedMain] com.example.demo.JtwPrjApplication : No active profile set, falling back to 1 default profile: "default" 
+10:45:01.163 DEBUG --- [restartedMain] c.example.demo.config.JwtAuthFilter : Filter 'jwtAuthFilter' configured for use 
+10:45:01.390 INFO  --- [restartedMain] com.example.demo.JtwPrjApplication : Started JtwPrjApplication in 0.649 seconds (process running for 503.379) 
+10:45:23.816 DEBUG --- [http-nio-8080-exec-1] c.e.demo.mapper.UserMapper.readUser : ==>  Preparing: SELECT u_id as username, u_password as password, u_name as uName, u_isAccountNonExpired as isAccountNonExpired, u_isAccountNonLocked as isAccountNonLocked, u_isCredentialNonExpired as isCredentialsNonExpired, u_isEnabled as isEnabled FROM lc_user WHERE 1=1 AND u_id = ? 
+10:45:24.038 DEBUG --- [http-nio-8080-exec-1] c.e.demo.mapper.UserMapper.readUser : ==> Parameters: 1(String) 
+10:45:24.208 TRACE --- [http-nio-8080-exec-1] c.e.demo.mapper.UserMapper.readUser : <==    Columns: username, password, uName, isAccountNonExpired, isAccountNonLocked, isCredentialsNonExpired, isEnabled 
+10:45:24.208 TRACE --- [http-nio-8080-exec-1] c.e.demo.mapper.UserMapper.readUser : <==        Row: 1, $2a$10$MGEXfwI9hdVC8HguAEcCv.gDKKCszqq3W9c915Ao/syPgksNpSxK6, zz5, 1, 1, 1, 1 
+10:45:24.226 DEBUG --- [http-nio-8080-exec-1] c.e.demo.mapper.UserMapper.readUser : <==      Total: 1 
+10:45:47.556 DEBUG --- [http-nio-8080-exec-1] c.e.d.m.UserMapper.readAuthorities : ==>  Preparing: SELECT u_auth FROM lc_auth WHERE 1=1 AND u_id = ? 
+10:45:47.561 DEBUG --- [http-nio-8080-exec-1] c.e.d.m.UserMapper.readAuthorities : ==> Parameters: 1(String) 
+10:45:47.567 TRACE --- [http-nio-8080-exec-1] c.e.d.m.UserMapper.readAuthorities : <==    Columns: u_auth 
+10:45:47.570 TRACE --- [http-nio-8080-exec-1] c.e.d.m.UserMapper.readAuthorities : <==        Row: ROLE_USER 
+10:45:47.592 TRACE --- [http-nio-8080-exec-1] c.e.d.m.UserMapper.readAuthorities : <==        Row: ROLE_ADMIN 
+10:45:47.596 DEBUG --- [http-nio-8080-exec-1] c.e.d.m.UserMapper.readAuthorities : <==      Total: 2 
+10:45:51.327 WARN  --- [http-nio-8080-exec-1] o.s.s.c.b.BCryptPasswordEncoder : Empty encoded password 
+10:50:02.598 DEBUG --- [http-nio-8080-exec-4] c.e.demo.mapper.UserMapper.readUser : ==>  Preparing: SELECT u_id as username, u_password as password, u_name as uName, u_isAccountNonExpired as isAccountNonExpired, u_isAccountNonLocked as isAccountNonLocked, u_isCredentialNonExpired as isCredentialsNonExpired, u_isEnabled as isEnabled FROM lc_user WHERE 1=1 AND u_id = ? 
+10:50:02.603 DEBUG --- [http-nio-8080-exec-4] c.e.demo.mapper.UserMapper.readUser : ==> Parameters: 1(String) 
+10:50:02.611 TRACE --- [http-nio-8080-exec-4] c.e.demo.mapper.UserMapper.readUser : <==    Columns: username, password, uName, isAccountNonExpired, isAccountNonLocked, isCredentialsNonExpired, isEnabled 
+10:50:02.615 TRACE --- [http-nio-8080-exec-4] c.e.demo.mapper.UserMapper.readUser : <==        Row: 1, $2a$10$MGEXfwI9hdVC8HguAEcCv.gDKKCszqq3W9c915Ao/syPgksNpSxK6, zz5, 1, 1, 1, 1 
+10:50:02.631 DEBUG --- [http-nio-8080-exec-4] c.e.demo.mapper.UserMapper.readUser : <==      Total: 1 
+10:50:04.711 DEBUG --- [http-nio-8080-exec-4] c.e.d.m.UserMapper.readAuthorities : ==>  Preparing: SELECT u_auth FROM lc_auth WHERE 1=1 AND u_id = ? 
+10:50:04.716 DEBUG --- [http-nio-8080-exec-4] c.e.d.m.UserMapper.readAuthorities : ==> Parameters: 1(String) 
+10:50:04.722 TRACE --- [http-nio-8080-exec-4] c.e.d.m.UserMapper.readAuthorities : <==    Columns: u_auth 
+10:50:04.725 TRACE --- [http-nio-8080-exec-4] c.e.d.m.UserMapper.readAuthorities : <==        Row: ROLE_USER 
+10:50:04.731 TRACE --- [http-nio-8080-exec-4] c.e.d.m.UserMapper.readAuthorities : <==        Row: ROLE_ADMIN 
+10:50:04.736 DEBUG --- [http-nio-8080-exec-4] c.e.d.m.UserMapper.readAuthorities : <==      Total: 2 
+10:50:17.975 WARN  --- [http-nio-8080-exec-4] o.s.s.c.b.BCryptPasswordEncoder : Empty encoded password 
+10:50:35.162 DEBUG --- [http-nio-8080-exec-7] c.e.demo.mapper.UserMapper.readUser : ==>  Preparing: SELECT u_id as username, u_password as password, u_name as uName, u_isAccountNonExpired as isAccountNonExpired, u_isAccountNonLocked as isAccountNonLocked, u_isCredentialNonExpired as isCredentialsNonExpired, u_isEnabled as isEnabled FROM lc_user WHERE 1=1 AND u_id = ? 
+10:50:35.167 DEBUG --- [http-nio-8080-exec-7] c.e.demo.mapper.UserMapper.readUser : ==> Parameters: 1(String) 
+10:50:35.175 TRACE --- [http-nio-8080-exec-7] c.e.demo.mapper.UserMapper.readUser : <==    Columns: username, password, uName, isAccountNonExpired, isAccountNonLocked, isCredentialsNonExpired, isEnabled 
+10:50:35.179 TRACE --- [http-nio-8080-exec-7] c.e.demo.mapper.UserMapper.readUser : <==        Row: 1, $2a$10$MGEXfwI9hdVC8HguAEcCv.gDKKCszqq3W9c915Ao/syPgksNpSxK6, zz5, 1, 1, 1, 1 
+10:50:35.194 DEBUG --- [http-nio-8080-exec-7] c.e.demo.mapper.UserMapper.readUser : <==      Total: 1 
+10:50:35.778 DEBUG --- [http-nio-8080-exec-7] c.e.d.m.UserMapper.readAuthorities : ==>  Preparing: SELECT u_auth FROM lc_auth WHERE 1=1 AND u_id = ? 
+10:50:35.783 DEBUG --- [http-nio-8080-exec-7] c.e.d.m.UserMapper.readAuthorities : ==> Parameters: 1(String) 
+10:50:35.789 TRACE --- [http-nio-8080-exec-7] c.e.d.m.UserMapper.readAuthorities : <==    Columns: u_auth 
+10:50:35.792 TRACE --- [http-nio-8080-exec-7] c.e.d.m.UserMapper.readAuthorities : <==        Row: ROLE_USER 
+10:50:35.798 TRACE --- [http-nio-8080-exec-7] c.e.d.m.UserMapper.readAuthorities : <==        Row: ROLE_ADMIN 
+10:50:35.803 DEBUG --- [http-nio-8080-exec-7] c.e.d.m.UserMapper.readAuthorities : <==      Total: 2 
+10:50:48.773 WARN  --- [http-nio-8080-exec-7] o.s.s.c.b.BCryptPasswordEncoder : Empty encoded password 
+10:51:51.512 DEBUG --- [http-nio-8080-exec-5] c.e.demo.mapper.UserMapper.readUser : ==>  Preparing: SELECT u_id as username, u_password as password, u_name as uName, u_isAccountNonExpired as isAccountNonExpired, u_isAccountNonLocked as isAccountNonLocked, u_isCredentialNonExpired as isCredentialsNonExpired, u_isEnabled as isEnabled FROM lc_user WHERE 1=1 AND u_id = ? 
+10:51:51.517 DEBUG --- [http-nio-8080-exec-5] c.e.demo.mapper.UserMapper.readUser : ==> Parameters: 1(String) 
+10:51:51.524 TRACE --- [http-nio-8080-exec-5] c.e.demo.mapper.UserMapper.readUser : <==    Columns: username, password, uName, isAccountNonExpired, isAccountNonLocked, isCredentialsNonExpired, isEnabled 
+10:51:51.528 TRACE --- [http-nio-8080-exec-5] c.e.demo.mapper.UserMapper.readUser : <==        Row: 1, $2a$10$MGEXfwI9hdVC8HguAEcCv.gDKKCszqq3W9c915Ao/syPgksNpSxK6, zz5, 1, 1, 1, 1 
+10:51:51.543 DEBUG --- [http-nio-8080-exec-5] c.e.demo.mapper.UserMapper.readUser : <==      Total: 1 
+10:51:51.552 DEBUG --- [http-nio-8080-exec-5] c.e.d.m.UserMapper.readAuthorities : ==>  Preparing: SELECT u_auth FROM lc_auth WHERE 1=1 AND u_id = ? 
+10:51:51.556 DEBUG --- [http-nio-8080-exec-5] c.e.d.m.UserMapper.readAuthorities : ==> Parameters: 1(String) 
+10:51:51.562 TRACE --- [http-nio-8080-exec-5] c.e.d.m.UserMapper.readAuthorities : <==    Columns: u_auth 
+10:51:51.566 TRACE --- [http-nio-8080-exec-5] c.e.d.m.UserMapper.readAuthorities : <==        Row: ROLE_USER 
+10:51:51.571 TRACE --- [http-nio-8080-exec-5] c.e.d.m.UserMapper.readAuthorities : <==        Row: ROLE_ADMIN 
+10:51:51.576 DEBUG --- [http-nio-8080-exec-5] c.e.d.m.UserMapper.readAuthorities : <==      Total: 2 
+10:51:51.581 WARN  --- [http-nio-8080-exec-5] o.s.s.c.b.BCryptPasswordEncoder : Empty encoded password 
+10:52:28.332 DEBUG --- [http-nio-8080-exec-8] c.e.demo.mapper.UserMapper.readUser : ==>  Preparing: SELECT u_id as username, u_password as password, u_name as uName, u_isAccountNonExpired as isAccountNonExpired, u_isAccountNonLocked as isAccountNonLocked, u_isCredentialNonExpired as isCredentialsNonExpired, u_isEnabled as isEnabled FROM lc_user WHERE 1=1 AND u_id = ? 
+10:52:28.337 DEBUG --- [http-nio-8080-exec-8] c.e.demo.mapper.UserMapper.readUser : ==> Parameters: 1(String) 
+10:52:28.345 TRACE --- [http-nio-8080-exec-8] c.e.demo.mapper.UserMapper.readUser : <==    Columns: username, password, uName, isAccountNonExpired, isAccountNonLocked, isCredentialsNonExpired, isEnabled 
+10:52:28.349 TRACE --- [http-nio-8080-exec-8] c.e.demo.mapper.UserMapper.readUser : <==        Row: 1, $2a$10$MGEXfwI9hdVC8HguAEcCv.gDKKCszqq3W9c915Ao/syPgksNpSxK6, zz5, 1, 1, 1, 1 
+10:52:28.365 DEBUG --- [http-nio-8080-exec-8] c.e.demo.mapper.UserMapper.readUser : <==      Total: 1 
+10:52:28.963 DEBUG --- [http-nio-8080-exec-8] c.e.d.m.UserMapper.readAuthorities : ==>  Preparing: SELECT u_auth FROM lc_auth WHERE 1=1 AND u_id = ? 
+10:52:28.970 DEBUG --- [http-nio-8080-exec-8] c.e.d.m.UserMapper.readAuthorities : ==> Parameters: 1(String) 
+10:52:28.977 TRACE --- [http-nio-8080-exec-8] c.e.d.m.UserMapper.readAuthorities : <==    Columns: u_auth 
+10:52:28.980 TRACE --- [http-nio-8080-exec-8] c.e.d.m.UserMapper.readAuthorities : <==        Row: ROLE_USER 
+10:52:28.986 TRACE --- [http-nio-8080-exec-8] c.e.d.m.UserMapper.readAuthorities : <==        Row: ROLE_ADMIN 
+10:52:28.990 DEBUG --- [http-nio-8080-exec-8] c.e.d.m.UserMapper.readAuthorities : <==      Total: 2 
+10:53:57.639 INFO  --- [restartedMain] com.example.demo.JtwPrjApplication : Starting JtwPrjApplication using Java 22.0.1 with PID 10544 (C:\Users\L10A\Documents\work8\jtwPrj\bin\main started by L10A in C:\Users\L10A\Documents\work8\jtwPrj) 
+10:53:57.639 DEBUG --- [restartedMain] com.example.demo.JtwPrjApplication : Running with Spring Boot v3.3.0, Spring v6.1.8 
+10:53:57.639 INFO  --- [restartedMain] com.example.demo.JtwPrjApplication : No active profile set, falling back to 1 default profile: "default" 
+10:53:58.026 DEBUG --- [restartedMain] c.example.demo.config.JwtAuthFilter : Filter 'jwtAuthFilter' configured for use 
+10:53:58.251 INFO  --- [restartedMain] com.example.demo.JtwPrjApplication : Started JtwPrjApplication in 0.637 seconds (process running for 1040.241) 
+10:53:59.747 INFO  --- [restartedMain] com.example.demo.JtwPrjApplication : Starting JtwPrjApplication using Java 22.0.1 with PID 10544 (C:\Users\L10A\Documents\work8\jtwPrj\bin\main started by L10A in C:\Users\L10A\Documents\work8\jtwPrj) 
+10:53:59.747 DEBUG --- [restartedMain] com.example.demo.JtwPrjApplication : Running with Spring Boot v3.3.0, Spring v6.1.8 
+10:53:59.747 INFO  --- [restartedMain] com.example.demo.JtwPrjApplication : No active profile set, falling back to 1 default profile: "default" 
+10:54:00.081 DEBUG --- [restartedMain] c.example.demo.config.JwtAuthFilter : Filter 'jwtAuthFilter' configured for use 
+10:54:00.300 INFO  --- [restartedMain] com.example.demo.JtwPrjApplication : Started JtwPrjApplication in 0.579 seconds (process running for 1042.289) 
+10:54:18.582 ERROR --- [http-nio-8080-exec-8] o.a.c.c.C.[.[.[.[dispatcherServlet] : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: org.mybatis.spring.MyBatisSystemException] with root cause 
+java.sql.SQLException: HikariDataSource HikariDataSource (HikariPool-1) has been closed.
+	at com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:95)
+	at org.springframework.jdbc.datasource.DataSourceUtils.fetchConnection(DataSourceUtils.java:160)
+	at org.springframework.jdbc.datasource.DataSourceUtils.doGetConnection(DataSourceUtils.java:118)
+	at org.springframework.jdbc.datasource.DataSourceUtils.getConnection(DataSourceUtils.java:81)
+	at org.mybatis.spring.transaction.SpringManagedTransaction.openConnection(SpringManagedTransaction.java:80)
+	at org.mybatis.spring.transaction.SpringManagedTransaction.getConnection(SpringManagedTransaction.java:67)
+	at org.apache.ibatis.executor.BaseExecutor.getConnection(BaseExecutor.java:348)
+	at org.apache.ibatis.executor.SimpleExecutor.prepareStatement(SimpleExecutor.java:89)
+	at org.apache.ibatis.executor.SimpleExecutor.doQuery(SimpleExecutor.java:64)
+	at org.apache.ibatis.executor.BaseExecutor.queryFromDatabase(BaseExecutor.java:336)
+	at org.apache.ibatis.executor.BaseExecutor.query(BaseExecutor.java:158)
+	at org.apache.ibatis.executor.CachingExecutor.query(CachingExecutor.java:110)
+	at org.apache.ibatis.executor.CachingExecutor.query(CachingExecutor.java:90)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectList(DefaultSqlSession.java:154)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectList(DefaultSqlSession.java:147)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectList(DefaultSqlSession.java:142)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectOne(DefaultSqlSession.java:75)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:425)
+	at jdk.proxy2/jdk.proxy2.$Proxy70.selectOne(Unknown Source)
+	at org.mybatis.spring.SqlSessionTemplate.selectOne(SqlSessionTemplate.java:160)
+	at org.apache.ibatis.binding.MapperMethod.execute(MapperMethod.java:87)
+	at org.apache.ibatis.binding.MapperProxy$PlainMethodInvoker.invoke(MapperProxy.java:141)
+	at org.apache.ibatis.binding.MapperProxy.invoke(MapperProxy.java:86)
+	at jdk.proxy5/jdk.proxy5.$Proxy85.readUser(Unknown Source)
+	at com.example.demo.service.RefreshTokenService.createRefreshToken(RefreshTokenService.java:24)
+	at com.example.demo.controller.UserController.AuthenticateAndGetToken(UserController.java:62)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:354)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:716)
+	at com.example.demo.controller.UserController$$SpringCGLIB$$0.AuthenticateAndGetToken(<generated>)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:255)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:188)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:926)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:831)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1089)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:914)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:590)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:195)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:110)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.CompositeFilter$VirtualFilterChain.doFilter(CompositeFilter.java:108)
+	at org.springframework.security.web.FilterChainProxy.lambda$doFilterInternal$3(FilterChainProxy.java:231)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:365)
+	at org.springframework.security.web.access.intercept.AuthorizationFilter.doFilter(AuthorizationFilter.java:100)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:126)
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:120)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.session.SessionManagementFilter.doFilter(SessionManagementFilter.java:131)
+	at org.springframework.security.web.session.SessionManagementFilter.doFilter(SessionManagementFilter.java:85)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.authentication.AnonymousAuthenticationFilter.doFilter(AnonymousAuthenticationFilter.java:100)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter.doFilter(SecurityContextHolderAwareRequestFilter.java:179)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.savedrequest.RequestCacheAwareFilter.doFilter(RequestCacheAwareFilter.java:63)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at com.example.demo.config.JwtAuthFilter.doFilterInternal(JwtAuthFilter.java:53)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:107)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:93)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.web.filter.CorsFilter.doFilterInternal(CorsFilter.java:91)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.header.HeaderWriterFilter.doHeadersAfter(HeaderWriterFilter.java:90)
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:75)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.context.SecurityContextHolderFilter.doFilter(SecurityContextHolderFilter.java:82)
+	at org.springframework.security.web.context.SecurityContextHolderFilter.doFilter(SecurityContextHolderFilter.java:69)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:62)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.session.DisableEncodeUrlFilter.doFilterInternal(DisableEncodeUrlFilter.java:42)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:233)
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:191)
+	at org.springframework.web.filter.CompositeFilter$VirtualFilterChain.doFilter(CompositeFilter.java:113)
+	at org.springframework.web.servlet.handler.HandlerMappingIntrospector.lambda$createCacheFilter$3(HandlerMappingIntrospector.java:195)
+	at org.springframework.web.filter.CompositeFilter$VirtualFilterChain.doFilter(CompositeFilter.java:113)
+	at org.springframework.web.filter.CompositeFilter.doFilter(CompositeFilter.java:74)
+	at org.springframework.security.config.annotation.web.configuration.WebMvcSecurityConfiguration$CompositeFilterChainProxy.doFilter(WebMvcSecurityConfiguration.java:230)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:352)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:268)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:389)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:896)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1741)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:1570)
+10:54:30.579 DEBUG --- [http-nio-8080-exec-3] c.e.demo.mapper.UserMapper.readUser : ==>  Preparing: SELECT u_id as username, u_password as password, u_name as uName, u_isAccountNonExpired as isAccountNonExpired, u_isAccountNonLocked as isAccountNonLocked, u_isCredentialNonExpired as isCredentialsNonExpired, u_isEnabled as isEnabled FROM lc_user WHERE 1=1 AND u_id = ? 
+10:54:30.579 DEBUG --- [http-nio-8080-exec-3] c.e.demo.mapper.UserMapper.readUser : ==> Parameters: 1(String) 
+10:54:30.580 TRACE --- [http-nio-8080-exec-3] c.e.demo.mapper.UserMapper.readUser : <==    Columns: username, password, uName, isAccountNonExpired, isAccountNonLocked, isCredentialsNonExpired, isEnabled 
+10:54:30.580 TRACE --- [http-nio-8080-exec-3] c.e.demo.mapper.UserMapper.readUser : <==        Row: 1, $2a$10$MGEXfwI9hdVC8HguAEcCv.gDKKCszqq3W9c915Ao/syPgksNpSxK6, zz5, 1, 1, 1, 1 
+10:54:30.580 DEBUG --- [http-nio-8080-exec-3] c.e.demo.mapper.UserMapper.readUser : <==      Total: 1 
+10:54:30.581 DEBUG --- [http-nio-8080-exec-3] c.e.d.m.UserMapper.readAuthorities : ==>  Preparing: SELECT u_auth FROM lc_auth WHERE 1=1 AND u_id = ? 
+10:54:30.581 DEBUG --- [http-nio-8080-exec-3] c.e.d.m.UserMapper.readAuthorities : ==> Parameters: 1(String) 
+10:54:30.581 TRACE --- [http-nio-8080-exec-3] c.e.d.m.UserMapper.readAuthorities : <==    Columns: u_auth 
+10:54:30.581 TRACE --- [http-nio-8080-exec-3] c.e.d.m.UserMapper.readAuthorities : <==        Row: ROLE_USER 
+10:54:30.582 TRACE --- [http-nio-8080-exec-3] c.e.d.m.UserMapper.readAuthorities : <==        Row: ROLE_ADMIN 
+10:54:30.582 DEBUG --- [http-nio-8080-exec-3] c.e.d.m.UserMapper.readAuthorities : <==      Total: 2 
+10:54:30.663 DEBUG --- [http-nio-8080-exec-3] c.e.demo.mapper.UserMapper.readUser : ==>  Preparing: SELECT u_id as username, u_password as password, u_name as uName, u_isAccountNonExpired as isAccountNonExpired, u_isAccountNonLocked as isAccountNonLocked, u_isCredentialNonExpired as isCredentialsNonExpired, u_isEnabled as isEnabled FROM lc_user WHERE 1=1 AND u_id = ? 
+10:54:30.663 DEBUG --- [http-nio-8080-exec-3] c.e.demo.mapper.UserMapper.readUser : ==> Parameters: 1(String) 
+10:54:30.663 TRACE --- [http-nio-8080-exec-3] c.e.demo.mapper.UserMapper.readUser : <==    Columns: username, password, uName, isAccountNonExpired, isAccountNonLocked, isCredentialsNonExpired, isEnabled 
+10:54:30.663 TRACE --- [http-nio-8080-exec-3] c.e.demo.mapper.UserMapper.readUser : <==        Row: 1, $2a$10$MGEXfwI9hdVC8HguAEcCv.gDKKCszqq3W9c915Ao/syPgksNpSxK6, zz5, 1, 1, 1, 1 
+10:54:30.664 DEBUG --- [http-nio-8080-exec-3] c.e.demo.mapper.UserMapper.readUser : <==      Total: 1 
+10:54:30.665 ERROR --- [http-nio-8080-exec-3] o.a.c.c.C.[.[.[.[dispatcherServlet] : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: org.apache.ibatis.binding.BindingException: Invalid bound statement (not found): com.example.demo.mapper.RefreshTokenMapper.createRefreshToken] with root cause 
+org.apache.ibatis.binding.BindingException: Invalid bound statement (not found): com.example.demo.mapper.RefreshTokenMapper.createRefreshToken
+	at org.apache.ibatis.binding.MapperMethod$SqlCommand.<init>(MapperMethod.java:229)
+	at org.apache.ibatis.binding.MapperMethod.<init>(MapperMethod.java:53)
+	at org.apache.ibatis.binding.MapperProxy.lambda$cachedInvoker$0(MapperProxy.java:96)
+	at java.base/java.util.concurrent.ConcurrentHashMap.computeIfAbsent(ConcurrentHashMap.java:1710)
+	at org.apache.ibatis.util.MapUtil.computeIfAbsent(MapUtil.java:36)
+	at org.apache.ibatis.binding.MapperProxy.cachedInvoker(MapperProxy.java:94)
+	at org.apache.ibatis.binding.MapperProxy.invoke(MapperProxy.java:86)
+	at jdk.proxy8/jdk.proxy8.$Proxy93.createRefreshToken(Unknown Source)
+	at com.example.demo.service.RefreshTokenService.createRefreshToken(RefreshTokenService.java:27)
+	at com.example.demo.controller.UserController.AuthenticateAndGetToken(UserController.java:62)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:354)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:716)
+	at com.example.demo.controller.UserController$$SpringCGLIB$$0.AuthenticateAndGetToken(<generated>)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:255)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:188)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:926)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:831)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1089)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:914)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:590)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:195)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:110)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.CompositeFilter$VirtualFilterChain.doFilter(CompositeFilter.java:108)
+	at org.springframework.security.web.FilterChainProxy.lambda$doFilterInternal$3(FilterChainProxy.java:231)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:365)
+	at org.springframework.security.web.access.intercept.AuthorizationFilter.doFilter(AuthorizationFilter.java:100)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:126)
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:120)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.session.SessionManagementFilter.doFilter(SessionManagementFilter.java:131)
+	at org.springframework.security.web.session.SessionManagementFilter.doFilter(SessionManagementFilter.java:85)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.authentication.AnonymousAuthenticationFilter.doFilter(AnonymousAuthenticationFilter.java:100)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter.doFilter(SecurityContextHolderAwareRequestFilter.java:179)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.savedrequest.RequestCacheAwareFilter.doFilter(RequestCacheAwareFilter.java:63)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at com.example.demo.config.JwtAuthFilter.doFilterInternal(JwtAuthFilter.java:53)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:107)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:93)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.web.filter.CorsFilter.doFilterInternal(CorsFilter.java:91)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.header.HeaderWriterFilter.doHeadersAfter(HeaderWriterFilter.java:90)
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:75)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.context.SecurityContextHolderFilter.doFilter(SecurityContextHolderFilter.java:82)
+	at org.springframework.security.web.context.SecurityContextHolderFilter.doFilter(SecurityContextHolderFilter.java:69)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:62)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.session.DisableEncodeUrlFilter.doFilterInternal(DisableEncodeUrlFilter.java:42)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:233)
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:191)
+	at org.springframework.web.filter.CompositeFilter$VirtualFilterChain.doFilter(CompositeFilter.java:113)
+	at org.springframework.web.servlet.handler.HandlerMappingIntrospector.lambda$createCacheFilter$3(HandlerMappingIntrospector.java:195)
+	at org.springframework.web.filter.CompositeFilter$VirtualFilterChain.doFilter(CompositeFilter.java:113)
+	at org.springframework.web.filter.CompositeFilter.doFilter(CompositeFilter.java:74)
+	at org.springframework.security.config.annotation.web.configuration.WebMvcSecurityConfiguration$CompositeFilterChainProxy.doFilter(WebMvcSecurityConfiguration.java:230)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:352)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:268)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:389)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:896)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1741)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:1570)
+10:54:41.830 DEBUG --- [http-nio-8080-exec-5] c.e.demo.mapper.UserMapper.readUser : ==>  Preparing: SELECT u_id as username, u_password as password, u_name as uName, u_isAccountNonExpired as isAccountNonExpired, u_isAccountNonLocked as isAccountNonLocked, u_isCredentialNonExpired as isCredentialsNonExpired, u_isEnabled as isEnabled FROM lc_user WHERE 1=1 AND u_id = ? 
+10:54:41.830 DEBUG --- [http-nio-8080-exec-5] c.e.demo.mapper.UserMapper.readUser : ==> Parameters: 1(String) 
+10:54:41.831 TRACE --- [http-nio-8080-exec-5] c.e.demo.mapper.UserMapper.readUser : <==    Columns: username, password, uName, isAccountNonExpired, isAccountNonLocked, isCredentialsNonExpired, isEnabled 
+10:54:41.831 TRACE --- [http-nio-8080-exec-5] c.e.demo.mapper.UserMapper.readUser : <==        Row: 1, $2a$10$MGEXfwI9hdVC8HguAEcCv.gDKKCszqq3W9c915Ao/syPgksNpSxK6, zz5, 1, 1, 1, 1 
+10:54:41.831 DEBUG --- [http-nio-8080-exec-5] c.e.demo.mapper.UserMapper.readUser : <==      Total: 1 
+10:54:41.831 DEBUG --- [http-nio-8080-exec-5] c.e.d.m.UserMapper.readAuthorities : ==>  Preparing: SELECT u_auth FROM lc_auth WHERE 1=1 AND u_id = ? 
+10:54:41.831 DEBUG --- [http-nio-8080-exec-5] c.e.d.m.UserMapper.readAuthorities : ==> Parameters: 1(String) 
+10:54:41.832 TRACE --- [http-nio-8080-exec-5] c.e.d.m.UserMapper.readAuthorities : <==    Columns: u_auth 
+10:54:41.832 TRACE --- [http-nio-8080-exec-5] c.e.d.m.UserMapper.readAuthorities : <==        Row: ROLE_USER 
+10:54:41.832 TRACE --- [http-nio-8080-exec-5] c.e.d.m.UserMapper.readAuthorities : <==        Row: ROLE_ADMIN 
+10:54:41.832 DEBUG --- [http-nio-8080-exec-5] c.e.d.m.UserMapper.readAuthorities : <==      Total: 2 
+10:54:41.906 DEBUG --- [http-nio-8080-exec-5] c.e.demo.mapper.UserMapper.readUser : ==>  Preparing: SELECT u_id as username, u_password as password, u_name as uName, u_isAccountNonExpired as isAccountNonExpired, u_isAccountNonLocked as isAccountNonLocked, u_isCredentialNonExpired as isCredentialsNonExpired, u_isEnabled as isEnabled FROM lc_user WHERE 1=1 AND u_id = ? 
+10:54:41.906 DEBUG --- [http-nio-8080-exec-5] c.e.demo.mapper.UserMapper.readUser : ==> Parameters: 1(String) 
+10:54:41.907 TRACE --- [http-nio-8080-exec-5] c.e.demo.mapper.UserMapper.readUser : <==    Columns: username, password, uName, isAccountNonExpired, isAccountNonLocked, isCredentialsNonExpired, isEnabled 
+10:54:41.907 TRACE --- [http-nio-8080-exec-5] c.e.demo.mapper.UserMapper.readUser : <==        Row: 1, $2a$10$MGEXfwI9hdVC8HguAEcCv.gDKKCszqq3W9c915Ao/syPgksNpSxK6, zz5, 1, 1, 1, 1 
+10:54:41.907 DEBUG --- [http-nio-8080-exec-5] c.e.demo.mapper.UserMapper.readUser : <==      Total: 1 
+10:54:41.908 ERROR --- [http-nio-8080-exec-5] o.a.c.c.C.[.[.[.[dispatcherServlet] : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: org.apache.ibatis.binding.BindingException: Invalid bound statement (not found): com.example.demo.mapper.RefreshTokenMapper.createRefreshToken] with root cause 
+org.apache.ibatis.binding.BindingException: Invalid bound statement (not found): com.example.demo.mapper.RefreshTokenMapper.createRefreshToken
+	at org.apache.ibatis.binding.MapperMethod$SqlCommand.<init>(MapperMethod.java:229)
+	at org.apache.ibatis.binding.MapperMethod.<init>(MapperMethod.java:53)
+	at org.apache.ibatis.binding.MapperProxy.lambda$cachedInvoker$0(MapperProxy.java:96)
+	at java.base/java.util.concurrent.ConcurrentHashMap.computeIfAbsent(ConcurrentHashMap.java:1710)
+	at org.apache.ibatis.util.MapUtil.computeIfAbsent(MapUtil.java:36)
+	at org.apache.ibatis.binding.MapperProxy.cachedInvoker(MapperProxy.java:94)
+	at org.apache.ibatis.binding.MapperProxy.invoke(MapperProxy.java:86)
+	at jdk.proxy8/jdk.proxy8.$Proxy93.createRefreshToken(Unknown Source)
+	at com.example.demo.service.RefreshTokenService.createRefreshToken(RefreshTokenService.java:27)
+	at com.example.demo.controller.UserController.AuthenticateAndGetToken(UserController.java:62)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:354)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:716)
+	at com.example.demo.controller.UserController$$SpringCGLIB$$0.AuthenticateAndGetToken(<generated>)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:255)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:188)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:926)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:831)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1089)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:914)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:590)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:195)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:110)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.CompositeFilter$VirtualFilterChain.doFilter(CompositeFilter.java:108)
+	at org.springframework.security.web.FilterChainProxy.lambda$doFilterInternal$3(FilterChainProxy.java:231)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:365)
+	at org.springframework.security.web.access.intercept.AuthorizationFilter.doFilter(AuthorizationFilter.java:100)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:126)
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:120)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.session.SessionManagementFilter.doFilter(SessionManagementFilter.java:131)
+	at org.springframework.security.web.session.SessionManagementFilter.doFilter(SessionManagementFilter.java:85)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.authentication.AnonymousAuthenticationFilter.doFilter(AnonymousAuthenticationFilter.java:100)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter.doFilter(SecurityContextHolderAwareRequestFilter.java:179)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.savedrequest.RequestCacheAwareFilter.doFilter(RequestCacheAwareFilter.java:63)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at com.example.demo.config.JwtAuthFilter.doFilterInternal(JwtAuthFilter.java:53)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:107)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:93)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.web.filter.CorsFilter.doFilterInternal(CorsFilter.java:91)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.header.HeaderWriterFilter.doHeadersAfter(HeaderWriterFilter.java:90)
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:75)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.context.SecurityContextHolderFilter.doFilter(SecurityContextHolderFilter.java:82)
+	at org.springframework.security.web.context.SecurityContextHolderFilter.doFilter(SecurityContextHolderFilter.java:69)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:62)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.session.DisableEncodeUrlFilter.doFilterInternal(DisableEncodeUrlFilter.java:42)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:233)
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:191)
+	at org.springframework.web.filter.CompositeFilter$VirtualFilterChain.doFilter(CompositeFilter.java:113)
+	at org.springframework.web.servlet.handler.HandlerMappingIntrospector.lambda$createCacheFilter$3(HandlerMappingIntrospector.java:195)
+	at org.springframework.web.filter.CompositeFilter$VirtualFilterChain.doFilter(CompositeFilter.java:113)
+	at org.springframework.web.filter.CompositeFilter.doFilter(CompositeFilter.java:74)
+	at org.springframework.security.config.annotation.web.configuration.WebMvcSecurityConfiguration$CompositeFilterChainProxy.doFilter(WebMvcSecurityConfiguration.java:230)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:352)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:268)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:389)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:896)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1741)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:1570)
+10:55:36.752 INFO  --- [restartedMain] com.example.demo.JtwPrjApplication : Starting JtwPrjApplication using Java 22.0.1 with PID 10544 (C:\Users\L10A\Documents\work8\jtwPrj\bin\main started by L10A in C:\Users\L10A\Documents\work8\jtwPrj) 
+10:55:36.752 DEBUG --- [restartedMain] com.example.demo.JtwPrjApplication : Running with Spring Boot v3.3.0, Spring v6.1.8 
+10:55:36.753 INFO  --- [restartedMain] com.example.demo.JtwPrjApplication : No active profile set, falling back to 1 default profile: "default" 
+10:55:37.059 DEBUG --- [restartedMain] c.example.demo.config.JwtAuthFilter : Filter 'jwtAuthFilter' configured for use 
+10:55:37.278 INFO  --- [restartedMain] com.example.demo.JtwPrjApplication : Started JtwPrjApplication in 0.548 seconds (process running for 1139.267) 
+10:55:43.906 DEBUG --- [http-nio-8080-exec-2] c.e.demo.mapper.UserMapper.readUser : ==>  Preparing: SELECT u_id as username, u_password as password, u_name as uName, u_isAccountNonExpired as isAccountNonExpired, u_isAccountNonLocked as isAccountNonLocked, u_isCredentialNonExpired as isCredentialsNonExpired, u_isEnabled as isEnabled FROM lc_user WHERE 1=1 AND u_id = ? 
+10:55:43.906 DEBUG --- [http-nio-8080-exec-2] c.e.demo.mapper.UserMapper.readUser : ==> Parameters: 1(String) 
+10:55:43.907 TRACE --- [http-nio-8080-exec-2] c.e.demo.mapper.UserMapper.readUser : <==    Columns: username, password, uName, isAccountNonExpired, isAccountNonLocked, isCredentialsNonExpired, isEnabled 
+10:55:43.907 TRACE --- [http-nio-8080-exec-2] c.e.demo.mapper.UserMapper.readUser : <==        Row: 1, $2a$10$MGEXfwI9hdVC8HguAEcCv.gDKKCszqq3W9c915Ao/syPgksNpSxK6, zz5, 1, 1, 1, 1 
+10:55:43.908 DEBUG --- [http-nio-8080-exec-2] c.e.demo.mapper.UserMapper.readUser : <==      Total: 1 
+10:55:43.908 DEBUG --- [http-nio-8080-exec-2] c.e.d.m.UserMapper.readAuthorities : ==>  Preparing: SELECT u_auth FROM lc_auth WHERE 1=1 AND u_id = ? 
+10:55:43.908 DEBUG --- [http-nio-8080-exec-2] c.e.d.m.UserMapper.readAuthorities : ==> Parameters: 1(String) 
+10:55:43.909 TRACE --- [http-nio-8080-exec-2] c.e.d.m.UserMapper.readAuthorities : <==    Columns: u_auth 
+10:55:43.909 TRACE --- [http-nio-8080-exec-2] c.e.d.m.UserMapper.readAuthorities : <==        Row: ROLE_USER 
+10:55:43.909 TRACE --- [http-nio-8080-exec-2] c.e.d.m.UserMapper.readAuthorities : <==        Row: ROLE_ADMIN 
+10:55:43.909 DEBUG --- [http-nio-8080-exec-2] c.e.d.m.UserMapper.readAuthorities : <==      Total: 2 
+10:58:45.346 DEBUG --- [http-nio-8080-exec-6] c.e.demo.mapper.UserMapper.readUser : ==>  Preparing: SELECT u_id as username, u_password as password, u_name as uName, u_isAccountNonExpired as isAccountNonExpired, u_isAccountNonLocked as isAccountNonLocked, u_isCredentialNonExpired as isCredentialsNonExpired, u_isEnabled as isEnabled FROM lc_user WHERE 1=1 AND u_id = ? 
+10:58:45.346 DEBUG --- [http-nio-8080-exec-6] c.e.demo.mapper.UserMapper.readUser : ==> Parameters: 1(String) 
+10:58:45.346 TRACE --- [http-nio-8080-exec-6] c.e.demo.mapper.UserMapper.readUser : <==    Columns: username, password, uName, isAccountNonExpired, isAccountNonLocked, isCredentialsNonExpired, isEnabled 
+10:58:45.346 TRACE --- [http-nio-8080-exec-6] c.e.demo.mapper.UserMapper.readUser : <==        Row: 1, $2a$10$MGEXfwI9hdVC8HguAEcCv.gDKKCszqq3W9c915Ao/syPgksNpSxK6, zz5, 1, 1, 1, 1 
+10:58:45.347 DEBUG --- [http-nio-8080-exec-6] c.e.demo.mapper.UserMapper.readUser : <==      Total: 1 
+10:58:45.347 DEBUG --- [http-nio-8080-exec-6] c.e.d.m.UserMapper.readAuthorities : ==>  Preparing: SELECT u_auth FROM lc_auth WHERE 1=1 AND u_id = ? 
+10:58:45.347 DEBUG --- [http-nio-8080-exec-6] c.e.d.m.UserMapper.readAuthorities : ==> Parameters: 1(String) 
+10:58:45.348 TRACE --- [http-nio-8080-exec-6] c.e.d.m.UserMapper.readAuthorities : <==    Columns: u_auth 
+10:58:45.348 TRACE --- [http-nio-8080-exec-6] c.e.d.m.UserMapper.readAuthorities : <==        Row: ROLE_USER 
+10:58:45.348 TRACE --- [http-nio-8080-exec-6] c.e.d.m.UserMapper.readAuthorities : <==        Row: ROLE_ADMIN 
+10:58:45.348 DEBUG --- [http-nio-8080-exec-6] c.e.d.m.UserMapper.readAuthorities : <==      Total: 2 
+11:02:16.462 INFO  --- [restartedMain] com.example.demo.JtwPrjApplication : Starting JtwPrjApplication using Java 22.0.1 with PID 10544 (C:\Users\L10A\Documents\work8\jtwPrj\bin\main started by L10A in C:\Users\L10A\Documents\work8\jtwPrj) 
+11:02:16.463 DEBUG --- [restartedMain] com.example.demo.JtwPrjApplication : Running with Spring Boot v3.3.0, Spring v6.1.8 
+11:02:16.463 INFO  --- [restartedMain] com.example.demo.JtwPrjApplication : No active profile set, falling back to 1 default profile: "default" 
+11:02:16.767 DEBUG --- [restartedMain] c.example.demo.config.JwtAuthFilter : Filter 'jwtAuthFilter' configured for use 
+11:02:16.983 INFO  --- [restartedMain] com.example.demo.JtwPrjApplication : Started JtwPrjApplication in 0.543 seconds (process running for 1538.973) 

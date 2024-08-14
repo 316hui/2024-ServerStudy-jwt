@@ -59,10 +59,10 @@ public class UserController {
 	public JwtResponseDTO AuthenticateAndGetToken(@RequestBody AuthRequestDTO authRequestDTO) {
 		 Authentication authentication = authenticationManager.authenticate(new UsernamePasswordAuthenticationToken(authRequestDTO.getUsername(), authRequestDTO.getPassword()));	
 		 if(authentication.isAuthenticated()) {
-			RefreshToken refreshTOken = refreshTokenService.createRefreshToken(authRequestDTO.getUsername());
+			//RefreshToken refreshTOken = refreshTokenService.createRefreshToken(authRequestDTO.getUsername());
 			JwtResponseDTO jwtResponseDTO = new JwtResponseDTO();
 			jwtResponseDTO.setAccessToken(jwtService.GenerateToken(authRequestDTO.getUsername()));
-			jwtResponseDTO.setToken(refreshTOken.getToken());
+			//jwtResponseDTO.setToken(refreshTOken.getToken());
 			return jwtResponseDTO;
 		} else {
 			throw new UsernameNotFoundException("invalid user request...!!!");

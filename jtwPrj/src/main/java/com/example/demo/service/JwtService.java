@@ -63,9 +63,9 @@ public class JwtService {
 
         return Jwts.builder()
                 .setClaims(claims)
-                .setSubject(username)
-                .setIssuedAt(new Date(System.currentTimeMillis()))
-                .setExpiration(new Date(System.currentTimeMillis()+1000*60*10))
+                .setSubject(username) //토큰이 누구에 대해 발급되는지 : 어떤 사용자에 대한 것인지 식별.
+                .setIssuedAt(new Date(System.currentTimeMillis())) //토큰 생성일 설정
+                .setExpiration(new Date(System.currentTimeMillis()+1000*60*10)) //토큰 만료일 설정
                 .signWith(getSignKey(), SignatureAlgorithm.HS256).compact();
     }
 
